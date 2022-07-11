@@ -13,6 +13,7 @@ public class selintro {
 driver.get("https://www.google.com/intl/en-GB/gmail/about/");
 driver.findElement(By.linkText("Sign in")).click();
 driver.findElement(By.name("identifier")).sendKeys("sathishmohan110@gmail.com");
+// this is summa edit on the git 
 driver.findElement(By.className("VfPpkd-RLmnJb")).click();
 	}
 
